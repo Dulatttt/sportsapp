@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+*:before,:after{
+    box-sizing: border-box;
+}
+
+/* detail */
+.detail{
+    width: 100%;
+    max-width: 360px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+
+/* header */
+header{
+    width: 360px;
+    height: 55px;
+    background-color: #353535;
+}
+
+/* category */
+.category{
+    width: 360px;
+    height: 30px;
+    background-color: #FF6060;
+    ;
+}
+.category-word{
+    text-align: center;
+    padding-top: 6px;
+    color: white;
+}
+
+/* main */
+main{
+    width: 360px;
+    height: 715px;
+}
+.news{
+    width: 320px;
+    height: 715px;
+    padding-left: 20px;
+}
+.news-title{
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 25px;
+}
+.news-date{
+    font-size: 10px;
+    padding-top: 10px;
+    color: #808080;
+}
+.news-information{
+    padding-top: 10px;
+    font-size: 12px;
+}
+.news-image{
+    width: 320px;
+    padding-top: 10px;
+}
+.news-istochnik{
+    padding-top: 10px;
+    font-size: 12px;
+}
+.news-button{
+    padding-top: 10px;
+}
+.news-button-box{
+    width: 100px;
+    height: 27px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c0c0c0;
+}

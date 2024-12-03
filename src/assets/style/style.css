@@ -1,0 +1,249 @@
+.header{
+    background-color: #353535;
+    width: 360px;
+    height: 55px;
+}
+.Allnews{
+    color: white;
+    text-align: center;
+    background-color: #808080;
+}
+.post-card__body{
+    border-bottom: 2px solid #808080;
+}
+.image1{
+    width: 300px;
+    height: 300px;
+}
+.Allnews{
+    width: 360px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+body{
+    margin: 0;
+   
+}
+*:before,:after{
+    box-sizing: border-box;
+}
+
+/* categories */
+.categories{
+    width: 100%;
+    max-width: 360px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+
+/* header */
+header{
+    width: 360px;
+    height: 55px;
+    background-color: #353535;
+}
+
+/* category */
+.category{
+    width: 360px;
+    height: 30px;
+    background-color: #FF7F24;
+}
+.category-word{
+    text-align: center;
+    padding-top: 6px;
+    color: white;
+}
+
+/* main */
+main{
+    width: 360px;
+    height: 715px;
+}
+.card{
+    width: 320px;
+    padding-left: 20px;
+    padding-top: 20px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.card-grid{
+    width: 140px;
+    height: 140px;
+    border-radius: 30px;
+    border: 2px solid black;
+    /* background-color: antiquewhite; */
+}
+.card-grid-image{
+    width: 48px;
+    padding-left: 46px;
+    padding-top: 35px;
+}
+.card-grid-item{
+    text-align: center;
+    padding-top: 15px;
+}
+body{
+    margin: 0;
+
+}
+*:before,:after{
+    box-sizing: border-box;
+}
+
+/* detail */
+.detail{
+    width: 100%;
+    max-width: 360px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+
+/* header */
+header{
+    width: 360px;
+    height: 55px;
+    background-color: #353535;
+}
+
+/* category */
+.category{
+    width: 360px;
+    height: 30px;
+    background-color: #FF6060;
+    ;
+}
+.category-word{
+    text-align: center;
+    padding-top: 6px;
+    color: white;
+}
+
+/* main */
+main{
+    width: 360px;
+    height: 715px;
+}
+.news{
+    width: 320px;
+    height: 715px;
+    padding-left: 20px;
+}
+.news-title{
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 25px;
+ 
+}
+.news-date{
+    font-size: 10px;
+    padding-top: 10px;
+    color: #808080;
+}
+.news-information{
+    padding-top: 10px;
+    font-size: 12px;
+}
+.news-image{
+    width: 320px;
+    padding-top: 10px;
+}
+.news-istochnik{
+    padding-top: 10px;
+    font-size: 12px;
+}
+.news-button{
+    padding-top: 10px;
+}
+.news-button-box{
+    width: 100px;
+    height: 27px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c0c0c0;
+}
+body{
+    margin: 0;
+   
+}
+*:before,:after{
+    box-sizing: border-box;
+}
+
+/* home */
+.home{
+    width: 100%;
+    max-width: 360px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+
+/* header */
+header{
+    width: 360px;
+    height: 55px;
+    background-color: #353535;
+}
+
+/* category */
+.category{
+    width: 360px;
+    height: 30px;
+    background-color: #808080;
+}
+.category-word{
+    text-align: center;
+    padding-top: 6px;
+    color: white;
+}
+
+/* main */
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post-card{
+    width: 360px;
+    height: 100px;
+    border-bottom: 1px solid #808080;
+    text-decoration: none;
+}
+.post-card-body{
+    width: 320px;
+    height: 100px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.post-card--title{
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.post-card--date{
+    font-size: 10px;
+    padding-top: 15px;
+    color: #808080;
+    text-decoration: none;
+}
+.post-card--category{
+    font-size: 10px;
+    padding-top: 5px;
+    color: #808080;
+    text-decoration: none;
+}
+.back{
+    background-color: #FF6060;
+    color: white;
+}
+.back img{
+    margin-left: 20px;
+    margin-top: 5px;
+}
